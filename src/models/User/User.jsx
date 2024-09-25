@@ -23,6 +23,10 @@ const userSchema = new Schema({
     type: String,
     default: "user",
   },
+  status: {
+    type: String,
+    default: "active",
+  },
   image: {
     type: String,
   },
